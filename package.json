@@ -5,8 +5,9 @@
   "author": "Ahmed Nawaz Khan",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
+    "build": "react-scripts build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --quiet --fix"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.4.3",
+    "source-map-explorer": "^2.5.0",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
