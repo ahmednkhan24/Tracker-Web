@@ -37,3 +37,7 @@ Builds the app for production to the `build` folder, then pushes the build to th
 
 Analyze the bundle size.<br />
 Source map explorer analyzes JavaScript bundles using the source maps. This helps you understand where code bloat is coming from.
+
+### `npm run lint`
+
+Statically analyzes the code to quickly find problems and auto-fix any fixable problems.
