@@ -1,3 +1,7 @@
+# React TypeScript
+
+Proper linting, meaningful commit messages, and deployment to GitHub pages.
+
 ## Setup
 
 Clone the repo and run a `npm install`.
